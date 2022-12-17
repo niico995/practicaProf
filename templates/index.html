@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/estilos/header.css">
+    <link rel="stylesheet" href="/static/estilos/panel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="/static/estilos/img/iconos/favicon.ico" type="image/x-icon">
+    <title>Dirección de Turismo</title>
+</head>
+<header>
+    <a href="index.html"><img class="logo" src="/static/estilos/img/LogoSecretaria.png" alt="logoSecretaria"></a>
+    <h1 class="tituloFijo">Municipalidad de la Ciudad de La Banda - Dirección de Turismo</h1>
+</header>
+
+<body>
+    <p class="saludo">¡Bienvenido/a de vuelta {{saludo}}! &#128075</p>
+    <div class="contenedor">
+        <div class="menu">
+            <a href="alojamiento.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/alojamiento.png" alt="">
+                    <h2>Alojamiento</h2>
+                </div>
+            </a>
+            <a href="inscripcionArtesano.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/artesanos.png" alt="">
+                    <h2>Artesanos</h2>
+                </div>
+            </a>
+            <a href="atractivos.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/activo-fijo.png" alt="">
+                    <h2>Atractivos</h2>
+                </div>
+            </a>
+            <a href="inscripcionComercio.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/comercios.png" alt="">
+                    <h2>Comercios</h2>
+                </div>
+            </a>
+            <a href="eventos.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/personas.png" alt="">
+                    <h2>Eventos</h2>
+                </div>
+            </a>
+            <a href="gastronomia.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/comer.png" alt="">
+                    <h2>Gastronomia</h2>
+                </div>
+            </a>
+            
+            <a href="servicios.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/servicio-al-cliente.png"
+                        alt="">
+                    <h2>Servicios</h2>
+                </div>
+            </a>
+            
+            <a href="usuarios.html">
+                <div class="submenu">
+                    <img class="imagenMenu" src="/static/estilos/img/iconos/iconos panel/programador.png" alt="">
+                    <h2>Usuarios</h2>
+                </div>
+            </a>
+            
+            
+        </div>
+
+        <form action="/cerrarSesion" method="POST">
+            <button class="botonSalir">
+                <img class="btnSalir" src="/static/estilos/img/iconos/iconos panel/cerrar-sesion.png" alt="">
+                <h3 class="txtVolver">Cerrar Sesión</h3>
+            </button>
+        </form>
+
+    </div>
+</body>
+
+</html>

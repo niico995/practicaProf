@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/static/estilos/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Saira+Condensed:wght@200;400;700&family=Satisfy&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/static/estilos/header.css">
+  <link rel="icon" href="/static/estilos/img/iconos/favicon.ico" type="image/x-icon">
+  <title>Dirección de Turismo</title>
+</head>
+<header>
+  <img class="logo" src="/static/estilos/img/LogoSecretaria.png" alt="logoSecretaria">
+  <h1 class="tituloFijo">Municipalidad de la Ciudad de La Banda- Dirección de Turismo</h1>
+</header>
+
+<body>
+  <div class="cajaPrincipalInicio">
+    <h2>INGRESE CONTRASEÑA</h2>
+
+    <form action="/contraseñaTemporal" method="POST">
+      <input class="estiloInput" type="password" id="login" name="contraseñaCambiar" placeholder="Contraseña recibida">
+      <button class="botonEnvio" type="submit">Continuar</button>
+    </form>
+
+  </div>
+
+  <div class="mensaje">
+    {% with mensaje = get_flashed_messages() %}
+    {% if mensaje %}
+    {% for mens in mensaje %}
+    <div class="aviso" role="alert">
+      <p>{{ mens }}</p>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+  </div>
+
+  
+</body>
+</html>
