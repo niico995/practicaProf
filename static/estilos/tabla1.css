@@ -225,3 +225,218 @@ a {
 .opciones2{
     width: 5.2em;
 }
+
+
+@media (min-width: 750px) {
+    .info {
+        background-color: #FCFCFC;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 14px;
+        border-radius: 5px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: center;
+    }
+    .info:last-child {
+        margin-right: -8px;
+    }
+    
+    .cabecera {
+        background-color: #FCFCFC;
+        border: 1.5px solid black;
+        margin-left: 15px;
+        border-radius: 2px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    
+    .cabecera:last-child {
+        margin-left: 18px;
+    }
+    .opciones {
+        width: 130px;
+    
+    }
+    
+    .categoria {
+        width: 80px;
+    }
+    
+    .nombre {
+        width: 240px;
+    }
+    
+    .direccion {
+        width: 210px;
+    }
+    
+    .telefono {
+        width: 130px;
+    }
+    
+    .pagina {
+        width: 400px;
+        overflow: hidden;
+    }
+    
+    
+    .botones {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:  center;
+    
+    }
+    
+    .btn {
+        margin-left: 5px;
+    }
+    
+    .botonMenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        height: 45px;
+        width: 60px;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .Editar {
+        background-color: #FFB800;
+        margin-left: 10px;
+    }
+    
+    .Borrar {
+        background-color: #FF1C1C;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0 15px 0;
+    
+    }
+    
+    
+    
+    .botonVolver {
+        width: 40px;
+        height: 50px;
+    }
+    
+    
+    .volver {
+        /* width: 55px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        margin-left: 55px;
+        width: 70px;
+        height: 40px;
+    }
+    
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .txtVolver {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        color: black;
+    }
+    
+    .txtAgregar{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: black;
+    
+    }
+}
+
+@media (min-width: 900px) {
+    .info {
+        background-color: #FCFCFC;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 14px;
+        border-radius: 5px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+    }
+    .info:last-child {
+        margin-right: -8px;
+    }
+    
+    .cabecera {
+        background-color: #FCFCFC;
+        border: 1.5px solid black;
+        margin-left: 14px;
+        border-radius: 2px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
+    .cabecera:last-child {
+        margin-left: 15px;
+    }
+    .opciones {
+        width: 130px;
+    
+    }
+    
+    .categoria {
+        width: 120px;
+    }
+    
+    .nombre {
+        width: 320px;
+    }
+    
+    .direccion {
+        width: 250px;
+    }
+    
+    .telefono {
+        width: 130px;
+    }
+    
+    .pagina {
+        width: 400px;
+        overflow: hidden;
+    }
+}
