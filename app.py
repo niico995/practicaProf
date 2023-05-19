@@ -13,7 +13,7 @@ from funciones.cambio import enviarMail,encriptar,comprobar,contraseñaRandom,ru
 from werkzeug.utils import secure_filename
 import os
 import shutil
-
+ 
 
 
 usuario = Usuario()
